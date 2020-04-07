@@ -11,3 +11,9 @@ string = ''.join(l)
 
 #Sorted <object>.sort() changes the original string, but sorted is like an filter that is applied over
 min = sorted(list(set([i[1] for i in scores_list])))[1]
+
+# Justify  - center, ljust & rjust
+# >>> 'hello'.center(10,'-')
+# '--hello---'
+# >>> 'hello'.center(10,'-')
+# '--hello---'

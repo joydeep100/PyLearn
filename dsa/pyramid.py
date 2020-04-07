@@ -6,7 +6,6 @@ def right_pymd(n):
 
 #right_pymd(5)
 
-
 def left_pymd(n):
 
 	for i in range(n):
@@ -34,5 +33,9 @@ def full_pymd(n):
 		print('\n')
 		l+=1
 
+n=5
+full_pymd(n)
 
-full_pymd(5)
+#For - full pyramid - using list comprehension
+pattern = [('*'*(2*i+1)).center(2*n,' ') for i in range(n)]
+print('\n'.join(pattern))
