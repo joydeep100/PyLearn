@@ -1,6 +1,6 @@
 import string
 alpha = string.ascii_lowercase
-n = 5
+n = int(input())
 
 s=[]
 for i in range(n):
