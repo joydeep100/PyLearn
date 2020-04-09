@@ -13,8 +13,6 @@ def packing(*args):
 #packing(1,2,3,4,5)
 
 # dictionary
-
-
 def unpack_dict(a,b,c):
 	print(a,b,c)
 
