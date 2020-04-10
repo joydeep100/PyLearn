@@ -1,3 +1,21 @@
+# Immutable
+# - String, Tuple
+
+#Mutable
+# - Dict, Lists
+
+t=(1,2,3)
+print(isinstance(t,tuple))
+print(id(t))
+
+# max(t)
+# min(t)
+# pow(x,y)
+# sorted(iterable)
+# reversed(iterable)
+# sum(iterable)
+# range(start,stop,step)
+
 #//Converting a list back to string.
 string = "abracadabra"
 l = list(string)
