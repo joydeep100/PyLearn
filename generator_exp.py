@@ -7,7 +7,6 @@ print(list((i for i in range(5))))
 
 for i in (i*i for i in range(5)):
 	print(i,end=' ')
-	
 # O/P 0 1 4 9 16
 
 
