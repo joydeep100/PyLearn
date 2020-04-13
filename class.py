@@ -1,3 +1,6 @@
+# class is a blueprint for the object or it is a factory for creatiing objects.
+# objects are instances of the class.
+
 class newClass(object):
 # in #1 object keyword is not needed.
 
