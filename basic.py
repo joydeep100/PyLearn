@@ -2,7 +2,8 @@
 # - String, Tuple
 
 #Mutable
-# - Dict, Lists
+# - Dict, Lists, set 
+# For Set - since we can add elements using the add() method.
 
 t=(1,2,3)
 print(isinstance(t,tuple))
