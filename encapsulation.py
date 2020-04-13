@@ -20,7 +20,7 @@ class Encap:
 o = Encap()
 
 # Private attribute
-# o.__pricave_var
+# o.__pricave_var		# or print(Encap.__private_var)
 # O/P
 # AttributeError: 'Encap' object has no attribute '__pricave_var'
 
