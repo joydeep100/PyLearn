@@ -40,7 +40,6 @@ class Manager(Employee):
             print(emp)
             print('-->', emp.fullname())
 
-
 dev_1 = Developer('Corey', 'Schafer', 50000, 'Python')
 dev_2 = Developer('Test', 'Employee', 60000, 'Java')
 
