@@ -15,9 +15,10 @@ ordinary()
 # I got decorated
 # I am ordinary
 
-# if we choose to comment '# @make_pretty', then we can use alternate code
-# ordinary = make_pretty(ordinary)
-# ordinary()
+'''if we choose to comment '@make_pretty', then we can use alternate code
+ordinary = make_pretty(ordinary)
+ordinary()
+'''
 
 #ex-2
 #When the function that needs to be decorated has some args
@@ -32,7 +33,7 @@ def smart_divide(func): #No spl. handling needed
 def divide(a,b):
     return a/b
 
-print(divide(10,20))
+divide(10,20)
 
 # O/P
 # 0.5

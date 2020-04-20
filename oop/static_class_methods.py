@@ -1,5 +1,4 @@
 class Class1:
-
     A = 100
 
     @classmethod
@@ -10,7 +9,10 @@ class Class1:
     def sta_fun():
         print('test')
 
-x = Class1()
+
+#Class method
 Class1.test_fun()
 
+#Static method
+x = Class1()
 x.sta_fun()
