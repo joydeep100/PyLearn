@@ -15,9 +15,9 @@ c1.getData()
 # O/P 
 # AttributeError: 'ComplexNumber' object has no attribute 'imag'
 
-#deleting methods
+#***deleting methods***
 
-# del ComplexNumber.getData	#Make sure you use class_name.method_name without ()
+# del ComplexNumber.getData	#***Make sure you use class_name.method_name without ()***
 # c1.getData()
 # O/P 
 # AttributeError: 'ComplexNumber' object has no attribute 'getData'

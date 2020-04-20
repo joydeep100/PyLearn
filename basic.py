@@ -1,13 +1,19 @@
-# Immutable
-# - String, Tuple
+'''
+Immutable
+- String, Tuple
 
-#Mutable
-# - Dict, Lists, set 
-# For Set - since we can add elements using the add() method.
+Mutable
+- Dict, Lists, set 
+For Set - since we can add elements using the add() method.
+
+ps-Multi line comment
+'''
 
 t=(1,2,3)
 print(isinstance(t,tuple))
+print(type(t))
 print(id(t))
+print(hex(id(t)))	#memory address in hex
 
 # max(t)
 # min(t)
@@ -34,8 +40,8 @@ min = sorted(list(set([i[1] for i in scores_list])))[1]
 # Justify  - center, ljust & rjust
 # >>> 'hello'.center(10,'-')
 # '--hello---'
-# >>> 'hello'.center(10,'-')
-# '--hello---'
+# >>> 'hello'.rjust(10,'-')
+# '--hello'
 
 #//Working with reverse slicing, A better approach
 print([1,2,3,4,5][1:3])
@@ -43,7 +49,7 @@ print([1,2,3,4,5][1:3])
 print([1,2,3,4,5][1:3][::-1])
 #O/P [3, 2]
 
-#Extend vs Appned in list
+#Extend vs Append in list
 l=[]
 l.append([1])
 print(l)
