@@ -4,24 +4,24 @@ class Person:
         # actual variable where name is stored is _name
 
     @property
-    def name(self):
+    def name(self):                  #note the function name
         print('Getting name')
         return self._name
 
-    @name.setter
-    def name(self, value):
+    @name.setter        
+    def name(self, value):           #note the function name
         print('Setting name to ' + value)
         self._name = value
 
     @name.deleter
-    def name(self):
+    def name(self):                  #note the function name
         print('Deleting name')
         del self._name
 
 p = Person('Adam')
 print('The name is:', p.name) #getter
-p.name = 'John' #setter
-del p.name #deleter
+p.name = 'John'               #setter
+del p.name                    #deleter
 
 # O/P
 # Getting name
