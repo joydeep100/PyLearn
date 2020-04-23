@@ -57,3 +57,6 @@ print(l)
 l.extend([2])
 print(l)
 # O/P [[1], 2]
+
+list('UDDDUDUU')
+# ['U', 'D', 'D', 'D', 'U', 'D', 'U', 'U']
