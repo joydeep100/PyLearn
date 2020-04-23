@@ -60,3 +60,7 @@ print(l)
 
 list('UDDDUDUU')
 # ['U', 'D', 'D', 'D', 'U', 'D', 'U', 'U']
+
+#precision handling
+print('%.5f'%(2/3))
+# 0.66667

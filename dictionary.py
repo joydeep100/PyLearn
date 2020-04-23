@@ -4,6 +4,10 @@ d2 = dict(name='joy',age=20)
 
 # {'name': 'joy', 'age': 20}
 
+#tip
+print('age' in d2)
+# True
+
 #nested
 d3 = {'employees':{'Dave':{'id':100,'role':'associate'},'Ava':{'id':200,'role':'hr'}}}
 
@@ -37,6 +41,5 @@ print(d5)
 
 d5.popitem()	#pops last item
 
-del d5['b']
-
-print(d5) #same as pop
+del d5['b'] #same as pop(<key>)
+print(d5) 
