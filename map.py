@@ -15,18 +15,3 @@ result = map(addition, numbers)
 #which can be accessed by converting it into one of the iterable objects like a list, tuple etc
 print(result)
 print(list(result)) 
-
-
-#Both are same, so you cannot print a map object directly. But you can assign it.
-#if you want to print type casting is necessary
-# >>> a,b = map(int,input().split())
-# 1 2
-# >>> a
-# 1
-# >>> b
-# 2
-# >>> a,b = list(map(int,input().split()))
-# >>> a
-# 1
-# >>> b
-# 2
