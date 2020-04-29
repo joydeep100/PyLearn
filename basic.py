@@ -38,9 +38,9 @@ string = ''.join(l)
 min = sorted(list(set([i[1] for i in scores_list])))[1]
 
 # Justify  - center, ljust & rjust
-# >>> 'hello'.center(10,'-')
+# print('hello'.center(10,'-'))
 # '--hello---'
-# >>> 'hello'.rjust(10,'-')
+# print('hello'.rjust(10,'-'))
 # '--hello'
 
 #//Working with reverse slicing, A better approach
@@ -49,18 +49,19 @@ print([1,2,3,4,5][1:3])
 print([1,2,3,4,5][1:3][::-1])
 #O/P [3, 2]
 
-#Extend vs Append in list
-l=[]
-l.append([1])
-print(l)
-# O/P [[1]]
-l.extend([2])
-print(l)
-# O/P [[1], 2]
-
-list('UDDDUDUU')
-# ['U', 'D', 'D', 'D', 'U', 'D', 'U', 'U']
-
 #precision handling
 print('%.5f'%(2/3))
 # 0.66667
+
+#absolute diff
+abs(2-10)
+# 8 
+
+#reversing a range
+[i for i in range(3)[::-1]]
+# 2 1 0
+
+# or 
+
+[i for i in range(2,-1,-1)] #same thing using range function
+# 2 1 0
