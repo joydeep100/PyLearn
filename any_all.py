@@ -1,4 +1,4 @@
-str = input()
+str = 'abracadabra'
 
 print(any(c.isalnum() for c in str))
 print(any(c.isalpha() for c in str))

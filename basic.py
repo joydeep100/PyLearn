@@ -35,7 +35,8 @@ string = ''.join(l)
 #O/P 'Hezzo worzd'
 
 #Sorted <object>.sort() changes the original string, but sorted is like an filter that is applied over
-min = sorted(list(set([i[1] for i in scores_list])))[1]
+scores_list = [1,2,3,4]
+min = sorted(list(set([i for i in scores_list])))[1]
 
 # Justify  - center, ljust & rjust
 # print('hello'.center(10,'-'))
