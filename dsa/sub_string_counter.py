@@ -1,10 +1,12 @@
+'''find the biggest repeating sub string from the given string'''
 str='hithisisgooglegoogl'
 
 l = len(str)
 
 ss_count = 0
 ss_str = ''
-
+'''this algorithm can be reverese, meaning to start from the biggest substring and if the count 
+becomes more than the lenght of the currecnt iteration of sub string, we can break'''
 for i in range(2,l+1):
 
 	for j in range(l-i+1):
