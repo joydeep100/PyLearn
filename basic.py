@@ -59,10 +59,5 @@ abs(2-10)
 # 8 
 
 #reversing a range
-[i for i in range(3)[::-1]]
-# 2 1 0
-
-# or 
-
-[i for i in range(2,-1,-1)] #same thing using range function
+[i for i in range(3)[::-1]] # or [i for i in range(2,-1,-1)]
 # 2 1 0

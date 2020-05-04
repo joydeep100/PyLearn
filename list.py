@@ -23,3 +23,11 @@ l1.pop()
 
 l1.remove(11)
 # [9, 2, 10, 11]		#only one items is removed
+
+# min and max of a list
+print(min(l1))
+print(max(l1))
+
+#index of an element
+print(l1.index(2))
+#1
