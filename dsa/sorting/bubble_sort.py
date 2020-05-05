@@ -28,4 +28,3 @@ arr = [-2, 45, 0, 11, -9]
 
 optmized_bubble_Sort(arr,len(arr))
 
-
