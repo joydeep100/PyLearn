@@ -1,25 +1,16 @@
-m=2
-n=4
+'''
+Input n,m
+Output n*1, n*2 .... n*m
+'''
+l = []
 
-k=1
-o=n+1
-def fun(m,n):
-	global k,o;
+def fun(start,end,k=1):
 
-	while k!=o:
-		print(m*k)
-		k=k+1
-		fun(m,k)
+	if k > end:
+		return
+		
+	l.append(start*k)
+	return fun(start,end,k+1)
 
-
-# fun(m,n)
-
-
-def fun2(start,end,k=1):
-	# import pdb;pdb.set_trace()
-	while(k!=end):
-		fun2(start,end,k+1)
-	print(m*k)
-
-
-fun2(2,4)
+fun(2,4)
+print(l)
