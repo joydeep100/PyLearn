@@ -61,3 +61,8 @@ abs(2-10)
 #reversing a range
 [i for i in range(3)[::-1]] # or [i for i in range(2,-1,-1)]
 # 2 1 0
+
+# Iterating sets - Dont use index to iterate over a set
+s=set([1,2,3,3])
+for item in s:
+	print(item)

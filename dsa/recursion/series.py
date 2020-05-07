@@ -13,6 +13,6 @@ def fun(m,k=1):
 	
 	return fun(m,k+1)
 
-m,n = 2,4
+m,n = 2,6
 fun(m)
 print(l)
