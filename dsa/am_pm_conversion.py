@@ -21,3 +21,4 @@ def timeConversion(s):
 		,str(secs_24).rjust(2,'0')))
 
 print(timeConversion('12:45:54PM'))
+#O/P 12:45:54
