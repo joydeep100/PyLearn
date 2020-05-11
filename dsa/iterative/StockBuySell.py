@@ -6,7 +6,10 @@ def stockBuySell(price,len):
 	while(i < len-1):
 
 		# finding local minimal
-		while((i < len -1) and (price[i+1] <= price[i])):
+		while((i < len -1) and (price[i+1] <= price[i])):	
+			
+		#the two while loops assist in outer while loop to get over so it's O(N)
+
 			# i can go till len -1 
 			i+=1
 
