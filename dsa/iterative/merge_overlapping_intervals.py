@@ -14,6 +14,6 @@ def mergeIntervals(arr):
 
 	print(s_arr)
 
-arr = [[1,2],[2,6],[8,10],[15,18]]
+arr = [[1,2`],[2,6],[8,10],[15,18]]
 mergeIntervals(arr) 
 # o/p [[1, 6], [8, 10], [15, 18]]
