@@ -66,3 +66,10 @@ abs(2-10)
 s=set([1,2,3,3])
 for item in s:
 	print(item)
+
+#lambda functions - small anonymous function, can take n args. 
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
+# o/p 13
+
+#note : if you are working with %, its best to start loop with index 1
