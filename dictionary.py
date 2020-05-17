@@ -43,3 +43,10 @@ d5.popitem()	#pops last item
 
 del d5['b'] #same as pop(<key>)
 print(d5) 
+
+#Dictionary comprehension
+old_price = {'milk': 1.02, 'coffee': 2.5, 'bread': 2.5}
+new_price = {item: value*2.5 for (item, value) in old_price.items()}
+
+print(new_price)
+# Output {'milk': 0.7752, 'coffee': 1.9, 'bread': 1.9}

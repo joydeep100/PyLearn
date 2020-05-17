@@ -1,7 +1,7 @@
 ''' 
 Bubble Sort is a sorting algorithm which compares two adjacent elements and swap them if they are not in the right order. 
 
-Pick one element, and push it to the right. (Either ascending or descending) * n times.
+Pick one element, and push it to the left or right. (for ascending or descending) * n times.
 
 Introduced swapped variable for optimizing this algorithm.
 '''

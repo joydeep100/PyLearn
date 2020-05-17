@@ -6,8 +6,11 @@ Mutable
 - Dict, Lists, set 
 For Set - since we can add elements using the add() method.
 
-ps-Multi line comment
+ps-Multi line comment'''
+
 '''
+Module is a single python file, A package is a collection of python modules.
+It can be in several sub directories (an empty __inti__.py file is used to identify sub modules)'''
 
 t=(1,2,3)
 print(isinstance(t,tuple))
