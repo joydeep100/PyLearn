@@ -14,6 +14,9 @@ d3 = {'employees':{'Dave':{'id':100,'role':'associate'},'Ava':{'id':200,'role':'
 print(d3['employees']['Ava']['id'])
 # 200
 
+#inserting
+d3['name']='joy'
+
 #updating
 d3['employees']['Ava']['id']=201
 print(d3['employees']['Ava']['id'])
